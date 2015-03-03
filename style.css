@@ -156,8 +156,8 @@ p{text-align: left;margin-bottom: 5px;}
 p::first-letter{font-size: 110%;text-transform: capitalize;}
 pre code {width:550px;text-align: left;font-family: monospace;}
 span.negro{font-weight: bolder;}
-/**/
-table {height:200px;width:100%;margin-bottom: 20px;margin-top: 20px;padding: 0px;}
+span.orange{color:orange;text-decoration: underline;}
+/*cosas de las tablas*/
+table{height:200px;width:100%;margin-bottom: 20px;margin-top: 20px;padding: 0px;}
 td {border:1px solid black;text-align: center;}
-
 img.iconoweb{width:50px;height: 50px;}
