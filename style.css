@@ -5,7 +5,7 @@
 	font-family: Lato;
 }
 body {
-	background-image: url(img/bg.svg);background-attachment: fixed;
+	background-image: url(img/bg.svg);background-attachment: fixed;background-size: 110%;
 }
 /*Menu lista de arriba*/
 div.cabecera {
