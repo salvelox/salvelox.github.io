@@ -149,7 +149,11 @@ a.indice {
 	margin-top: 10px;
 	height: 20px;	
 }
+/*Todo lo que tiene que ver con texto*/
 h1{font-size: 300%;padding-top: 10px;padding-bottom: 10px;}
 h2{font-size:200%;padding-top: 10px;padding-bottom: 10px;}
-p {text-align: left;margin-bottom: 5px;}
+p{text-align: left;margin-bottom: 5px;}
+p::first-letter{font-size: 110%;text-transform: capitalize;}
 pre code {width:550px;text-align: left;font-family: monospace;}
+span.negro{font-weight: bolder;}
+/**/
