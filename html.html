@@ -50,14 +50,31 @@
 				<p>A notar que las etiquetas pueden ser escritas con cualquier tipo de combinación de mayúsculas y minúsculas.&lt;html&gt;, &lt;HTML&gt; o &lt;HtMl&gt;son la misma etiqueta. Resulta sin embargo aconsejable acostumbrarse a escribirlas en minúscula ya que otras tecnologías que pueden convivir con nuestro HTML (XML por ejemplo) no son tan permisivas y nunca viene mal coger buenas costumbres desde el principio para evitar fallos triviales en un futuro.</p>
 				<h2>Cabecera del Documento</h2>
 				<p>La directiva &lt;HEAD&gt;&lt;/HEAD&gt; delimita la cabecera del documento. Dentro de la cabecera es importante definir el título de la página por medio de la directiva &lt;TITLE&gt;&lt;/TITLE&gt;. Este título será el que aparezca en la barra de nuestro visor de páginas Web.</p>
-				<br>
-				<p>Dentro de la cabecera de nuestro documento podemos incluir otras directivas adicionales. La directiva &lt;META&gt; indica al visor de Internet las palabras clave y contenido de nuestra página Web.</p>
+				<p>Ejemplo:
+				<pre>
+					<code>	
+&lt;TITLE&gt; Una página Web de Prueba&lt;/TITLE&gt;
+					</code>
+				</pre> 
+				</p>
+				<p>Dentro de la cabecera de nuestro documento podemos incluir otras directivas adicionales. La directiva &lt;META&gt; indica al visor de Internet las palabras clave y contenido de nuestra página Web. La directiva &lt;META&gt; lleva generalmente dos parámetros, name y content.</p>
+				<p>Ejemplos:
+				<pre>
+					<code>	
+&lt;META name="Página de Prueba" content="Fútbol y Baloncesto"&gt;
+Indica al visor el nombre de la página y sus contenidos principales.
+&lt;META name="keywords" content ="Fútbol Baloncesto españa"&gt;
+Indica al visor las palabras clave para los buscadores de Internet.
+					</code>
+				</pre> 
+				</p>
 				<p>Otro uso de la directiva &lt;META&gt; es la de indicar documentos con “refresco automático”. Si se indica una URL se sustituirá el documento por el indicado una vez transcurridos el número de segundos especificados. </p>
 				<br>
-				<p>	Ejemplo: Transcurridos 15 segundos se accederá a la página Web de Microsoft.
+				<p>	Ejemplo: 
 				<pre>
 					<code>	
 &lt;META http-equiv="refresh"content="15 URL="http://www.microsoft.com"&gt;
+Transcurridos 15 segundos se accederá a la página Web de Microsoft.
 				</code>
 				</pre> 
 				</p>	

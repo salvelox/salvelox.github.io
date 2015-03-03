@@ -63,6 +63,8 @@ a.indice {
 	word-wrap: break-word;
 	white-space: normal;
 	padding-bottom: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 /*Menus de la derecha*/
 .menuright {
@@ -149,5 +151,5 @@ a.indice {
 }
 h1{font-size: 300%;padding-top: 10px;padding-bottom: 10px;}
 h2{font-size:200%;padding-top: 10px;padding-bottom: 10px;}
-p {padding-left: 15px;padding-right: 15px;text-align: left;}
+p {text-align: left;margin-bottom: 5px;}
 pre code {width:550px;text-align: left;font-family: monospace;}
