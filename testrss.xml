@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>uno</title>
+        <link>salvelox.github.io</link>
+        <description>Test que te test</description>
+        <item>
+            <title>uno</title>
+            <link>salvelox.github.io</link>
+            <description>Test que te test</description>
+        </item>
+    </channel>
+</rss>
